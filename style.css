@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.page--left{
+    width: 20%;
+    height: 100%;
+    background-color: aqua;
+    float: left;
+    position: relative;
+}
+#sanho{
+    position: absolute;
+    left: 0px;
+    width: 110%;
+}
+#soc{
+    height: 100vh;
+}
+
+.page--right{
+    width: 80%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+.page--right-left{
+    width: 5%;
+    float: left;
+}
+.page--right-right{
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    background-image: url('./IMAGES/sua1.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+h1{
+    margin: 20px 0px 0px 20px;
+    color: #FFA07A;
+    font-size: 40px;
+}
+p{
+    margin-left: 200px;
+    margin-top: 90px;
+}
+.container{
+    width: 540px;
+    position: absolute;
+    background-color: rgb(63, 228, 63);
+    bottom: 150px;
+    left: 200px;
+    padding: 10px;
+}       
+.form--control{
+    display: flex;
+    margin: 20px;
+}
+.image{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
